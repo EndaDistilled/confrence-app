@@ -8,11 +8,11 @@ import javax.sql.DataSource;
 
 @Configuration
 public class PersistenceConfiguration {
-    @Bean
-    public DataSource dataSource(){
-        DataSourceBuilder builder = DataSourceBuilder.create();
-        builder.url("jdbc:postgresql://localhost:5432/postgres");
-        System.out.println("My custom dataSource bean has been used");
-        return builder.build();
-    }
+//    @Bean
+//    public DataSource dataSource(){
+//        DataSourceBuilder builder = DataSourceBuilder.create();
+//        builder.url("jdbc:postgresql://localhost:5432/postgres");
+//        System.out.println("My custom dataSource bean has been used");
+//        return builder.build();
+//    }
 }
